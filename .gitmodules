@@ -1,0 +1,3 @@
+[submodule "repos/release-please.maven.child"]
+	path = repos/release-please.maven.child
+	url = https://github.com/nomed/release-please.maven.child.git

@@ -12,7 +12,10 @@
         <maven.compiler.source>11</maven.compiler.source>
     </properties>
 
-
+    <modules>
+        <module>repos/release-please.child/pom-suite.xml</module>
+        <!--<module>repos/demo2/pom-suite.xml</module>-->
+    </modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -20,10 +23,6 @@
 		<version>3.0.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-    <modules>
-        <module>repos/demo1/pom-suite.xml</module>
-        <module>repos/demo2/pom-suite.xml</module>         
-    </modules>
 
     <dependencyManagement>
         <dependencies>

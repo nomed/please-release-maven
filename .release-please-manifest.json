@@ -1,3 +1,10 @@
 {
-  ".": "0.0.1"
+  ".": "0.0.1",
+  "extra-files": [
+    {
+      "type": "xml",
+      "path": "repos/release-please.maven.child/pom-suite.xml",
+      "xpath": "//project/parent/version"
+    }
+  ]  
 }
