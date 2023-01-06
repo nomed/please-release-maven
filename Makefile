@@ -9,4 +9,5 @@ release:
 
 	release-please release-pr \
 		--token=$(GH_TOKEN) \
-		--repo-url=nomed/please-release-maven 
+		--repo-url=nomed/please-release-maven \
+		--bump-minor-pre-major
