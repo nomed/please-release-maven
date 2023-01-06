@@ -13,7 +13,13 @@
           "path": "repos/release-please.maven.child/pom-suite.xml",
           "xpath": "/project/parent/version"
         }
-      ]        
+      ],
+      "plugins": [
+        {
+          "type": "maven-workspace",
+          "considerAllArtifacts": false
+        }
+      ]
     }
   },
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
